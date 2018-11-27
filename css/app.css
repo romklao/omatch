@@ -14,24 +14,35 @@ ul {
   list-style-type: none;
 }
 
+img:hover {
+  cursor: pointer;
+}
+
+.app-container {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f4f7;
+}
+
 .app-container {
   display: flex;
   justify-content: center;
   align-items: center;
-/*  height: 100%;
-*/  width: 100%;
+  width: 100%;
 }
 
 .images-wrap {
   position: relative;
 }
 
-.images-wrap .image {
+.images-wrap .image-list {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
   border: 1px solid grey;
-}
+/*  background-color: #f1f4f7;
+*/}
+
+
 
